@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turizam Srbije | Atrakcije</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Srbija<span>Tours</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Početna</a></li>
+            <li><a href="#attractions">Atrakcije</a></li>
+            <li><a href="#about">O projektu</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-text">
+            <h1>Otkrijte Srbiju</h1>
+            <p>Od gradske vreve Beograda do netaknute prirode Istoka.</p>
+        </div>
+    </header>
+
+    <section id="attractions">
+        <h2>Glavne Turističke Atrakcije</h2>
+        <div class="grid">
+            
+            <div class="card">
+                <div class="card-image bg-beograd"></div>
+                <div class="card-content">
+                    <h3>Beograd</h3>
+                    <ul>
+                        <li><strong>Kalemegdan:</strong> Srednjovekovna tvrđava sa pogledom na ušće Save u Dunav.</li>
+                        <li><strong>Hram Svetog Save:</strong> Jedan od najvećih pravoslavnih hramova na svetu.</li>
+                        <li><strong>Skadarlija:</strong> Boemska četvrt sa tradicionalnim kafanama.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image bg-novisad"></div>
+                <div class="card-content">
+                    <h3>Novi Sad</h3>
+                    <ul>
+                        <li><strong>Petrovaradinska tvrđava:</strong> Poznata kao "Gibraltar na Dunavu" i dom EXIT festivala.</li>
+                        <li><strong>Trg slobode:</strong> Centar grada sa impresivnom Gradskom kućom i katedralom.</li>
+                        <li><strong>Štrand:</strong> Najlepša peščana plaža na celom toku Dunava.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image bg-istok"></div>
+                <div class="card-content">
+                    <h3>Istočna Srbija</h3>
+                    <ul>
+                        <li><strong>Đerdapska klisura:</strong> Najveća i najduža klisura u Evropi (Gvozdena vrata).</li>
+                        <li><strong>Lepenski Vir:</strong> Jedno od najvažnijih mezolitskih arheoloških nalazišta.</li>
+                        <li><strong>Felix Romuliana:</strong> Rimska carska palata pod zaštitom UNESCO-a.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Zakažite turu</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Ime" required>
+            <input type="email" placeholder="Email" required>
+            <select>
+                <option>Izaberite destinaciju</option>
+                <option>Beograd</option>
+                <option>Novi Sad</option>
+                <option>Istočna Srbija</option>
+            </select>
+            <button type="submit" class="btn">Pošalji upit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
